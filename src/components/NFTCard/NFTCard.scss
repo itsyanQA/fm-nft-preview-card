@@ -1,0 +1,59 @@
+.nft {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 400px;
+  height: 700px;
+  background-color: var(--very-dark-blue-card-bg);
+  border-radius: 20px;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  @media screen and (max-width: 600px) {
+    padding: 27px;
+    height: 75%;
+    width: 73%;
+  }
+
+  & img {
+    height: 60%;
+    width: 100%;
+    border-radius: 10px;
+
+    @media screen and (max-width: 600px) {
+      height: 55%;
+    }
+  }
+
+  &__content-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+
+  &__title {
+    color: var(--white);
+    font-size: 28px;
+    font-weight: 600;
+    opacity: 90%;
+
+    @media screen and (max-width: 600px) {
+      font-size: 24px;
+    }
+  }
+
+  &__description {
+    color: var(--soft-blue);
+    opacity: 70%;
+    font-size: 22px;
+    font-weight: 300;
+
+    @media screen and (max-width: 600px) {
+      font-size: 18px;
+      line-height: 28px;
+    }
+  }
+}

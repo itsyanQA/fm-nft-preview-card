@@ -1,0 +1,31 @@
+.nft-creator {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+
+  & img {
+    width: 40px;
+    height: 40px;
+    outline: 1px solid var(--white);
+    border-radius: 100%;
+
+    @media screen and (max-width: 600px) {
+      width: 30px;
+      height: 30px;
+    }
+  }
+
+  &__text {
+    color: var(--soft-blue);
+    font-size: 20px;
+
+    @media screen and (max-width: 600px) {
+      font-size: 16px;
+    }
+
+    & b {
+      color: var(--white);
+      font-weight: 500;
+    }
+  }
+}

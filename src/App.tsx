@@ -1,5 +1,7 @@
+import NFTCard from "./components/NFTCard/NFTCard";
+
 function App() {
-  return <div>hi</div>;
+  return <NFTCard />;
 }
 
 export default App;

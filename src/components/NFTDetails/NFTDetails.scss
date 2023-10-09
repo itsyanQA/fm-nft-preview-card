@@ -1,0 +1,33 @@
+.nft-details {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  &__eth-container,
+  &__clock-container {
+    display: flex;
+    align-items: center;
+    gap: 7px;
+
+    &__text {
+      font-size: 22px;
+
+      @media screen and (max-width: 600px) {
+        font-size: 18px;
+      }
+    }
+  }
+
+  &__eth-container {
+    &__text {
+      color: var(--cyan);
+    }
+  }
+
+  &__clock-container {
+    &__text {
+      color: var(--soft-blue);
+      opacity: 80%;
+    }
+  }
+}
