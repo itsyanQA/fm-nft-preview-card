@@ -4,8 +4,8 @@
   gap: 15px;
 
   & img {
-    width: 40px;
-    height: 40px;
+    width: 30px;
+    height: 30px;
     outline: 1px solid var(--white);
     border-radius: 100%;
 
@@ -17,11 +17,7 @@
 
   &__text {
     color: var(--soft-blue);
-    font-size: 20px;
-
-    @media screen and (max-width: 600px) {
-      font-size: 16px;
-    }
+    font-size: 16px;
 
     & b {
       color: var(--white);

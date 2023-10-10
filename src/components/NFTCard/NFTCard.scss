@@ -1,5 +1,5 @@
 .nft {
-  width: 400px;
+  width: 320px;
   height: 70vh;
   background-color: var(--very-dark-blue-card-bg);
   border-radius: 20px;
@@ -9,8 +9,10 @@
   justify-content: space-between;
 
   @media screen and (max-width: 600px) {
+    margin-top: 20px;
     padding: 27px;
     width: 73%;
+    height: 80vh;
   }
 
   &__view-icon {
@@ -48,7 +50,7 @@
 
   &__title {
     color: var(--white);
-    font-size: 28px;
+    font-size: 24px;
     font-weight: 600;
     opacity: 90%;
     transition: color 0.3s;
@@ -66,7 +68,7 @@
   &__description {
     color: var(--soft-blue);
     opacity: 70%;
-    font-size: 22px;
+    font-size: 18px;
     font-weight: 300;
 
     @media screen and (max-width: 600px) {
