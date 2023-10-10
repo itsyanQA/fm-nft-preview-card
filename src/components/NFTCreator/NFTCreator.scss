@@ -26,6 +26,12 @@
     & b {
       color: var(--white);
       font-weight: 500;
+      cursor: pointer;
+      transition: color 0.3s;
+
+      &:hover {
+        color: var(--cyan);
+      }
     }
   }
 }
